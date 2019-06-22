@@ -1,0 +1,42 @@
+.hide {
+  display: none;
+  border: 1px solid red;
+  width: 500px;
+}
+
+ul li.active {
+  background: #000;
+  color: #fff;
+}
+
+.accordion__item {
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+.accordion__item:first-child {
+  border: none;
+}
+
+.accordion__trigger {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007edf;
+  border: none;
+}
+
+.accordion__item.is-open .accordion__trigger {
+  color: #fff;
+  background-color: #000;
+}
+
+.accordion__content {
+  background-color: #fff;
+}
+
+.accordion__content p {
+  margin: 0;
+  padding: 20px;
+}
