@@ -12,9 +12,15 @@ window.onload = function () {
 }
 
 
-$('.js-contentToggle').contentToggle({
-  independent: true,
-  toggleOptions : {
-    duration: 400
-  }
+// $('.js-contentToggle').contentToggle({
+//   independent: true,
+//   toggleOptions : {
+//     duration: 400
+//   }
+// });
+
+$("#hello").on('click', function() {
+
+  $.fancybox.open('<div class="message"><h2>Hello!</h2><p>You are awesome!</p></div>');
+
 });
